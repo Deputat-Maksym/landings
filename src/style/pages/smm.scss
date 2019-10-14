@@ -263,6 +263,7 @@
 
 .tariffs {
   position: relative;
+  padding-bottom: 100px;
 
   &-list {
     padding: 90px 0 32px;
@@ -309,8 +310,8 @@
       content: '';
       position: absolute;
       top: 0;
-      right: 0;
-      transform: translate(-175px, -200px);
+      right: 50%;
+      transform: translate(570px, -200px);
       display: block;
       width: 115px;
       height: 160px;
@@ -321,8 +322,8 @@
       content: '';
       position: absolute;
       top: 0;
-      right: 0;
-      transform: translate(-300px, -95px);
+      right: 50%;
+      transform: translate(440px,-88px);
       display: block;
       width: 62px;
       height: 85px;
@@ -452,7 +453,7 @@
   transition: var(--transition);
 }
 
-.btn--tarrifs {
+.btn--tariffs {
   width: 100%;
   max-width: 335px;
   color: var(--purple);
