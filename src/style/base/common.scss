@@ -79,7 +79,6 @@ html {
 html, body {
   min-width: 320px;
   height: 100%;
-  //overflow-x: auto;
 }
 
 .inner-wrap {
@@ -184,7 +183,7 @@ h4, .h4 {
   }
 
   h2, .h2 {
-    font-size: calc(1rem + 0.45vw) !important;
+    font-size: calc(1rem + 1vw) !important;
   }
 
   h3, .h3, h4, .h4 {
