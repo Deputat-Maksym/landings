@@ -291,6 +291,11 @@
       box-shadow: var(--bottom-shadow-alpha-purple-40);
       transform: translateY(-20px);
       transition: var(--transition);
+
+      @media only screen and (max-width: $breakpoint-lg) {
+        transform: none;
+        box-shadow: none;
+      }
     }
 
     &:after {
