@@ -60,6 +60,7 @@ header {
     transform: translateX(100%);
     transition: var(--transition);
     background: #fff;
+    padding: 15px;
   }
 
   @media only screen and (max-width: $breakpoint-sm) {

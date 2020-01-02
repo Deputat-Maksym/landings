@@ -13,7 +13,7 @@
 
 .top-sect {
   padding: 65px 0;
-  overflow-x: hidden;
+  //overflow-x: hidden;
 
   @media only screen and (max-width: $breakpoint-lg) {
     padding: 15px 0 50px;
@@ -292,9 +292,8 @@
       transform: translateY(-20px);
       transition: var(--transition);
 
-      @media only screen and (max-width: $breakpoint-lg) {
+      @media only screen and (max-width: $breakpoint-xl) {
         transform: none;
-        box-shadow: none;
       }
     }
 
@@ -508,6 +507,7 @@
 
         &:before {
           content: '\25c9';
+          font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
           display: block;
           position: absolute;
           top: 16px;
@@ -523,6 +523,7 @@
 
         &:after {
           content: '\203a';
+          font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
           display: block;
           position: absolute;
           top: 16px;
@@ -547,7 +548,7 @@
         pointer-events: none;
 
         &:before {
-          content: '\25ce';
+          content: '\20dd';
           color: #999 !important;
         }
 
@@ -598,6 +599,7 @@
 .rub:after {
   content: '\20BD';
   margin-left: 5px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
 .sub-list-pref {
